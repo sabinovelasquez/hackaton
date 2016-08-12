@@ -30,8 +30,8 @@ angular.module('firebaseVotingApp')
 angular.module('firebaseVotingApp')
   .controller('MainCtrl', function ($scope, Candidate) {
 		$scope.candidates = [
-			new Candidate('Hacer un cover de Nunca me faltes (por: El Chico de las poesías)'),
-			new Candidate('Cocinar para un gato (por: Martín Carcamo)'),
-			new Candidate('Llegar a nivel 20 en Pokemon (por: Fyto Manga)')
+			new Candidate('Un red social para perros (por: El Chico Terry)'),
+			new Candidate('Cocinar sin sal (por: Martín Carcamo)'),
+			new Candidate('Tomarse un gimnasio en Pokemon (por: Fyto Manga)')
 		];
   });
